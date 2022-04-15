@@ -1,5 +1,8 @@
 package demo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Doctor implements Staff{
 
     public Doctor(String qualification) {
